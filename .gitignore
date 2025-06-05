@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+# Task files
+tasks.json
+tasks/ 
+
+# 不重要或開發工具產生的 dotfiles
+.cursor
+.roo
+.roomodes
+.taskmasterconfig
+.windsurfrules
+
+# 如果你希望忽略 Python 虛擬環境資訊
+.python-version
+
+# pycache
+**/__pycache__/
