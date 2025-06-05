@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "new-message-center-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-cloud-bigquery = "^3.33.0"
+google-auth = "^2.40.1"
+google-generativeai = "^0.8.5"
+google-genai = "^1.16.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
